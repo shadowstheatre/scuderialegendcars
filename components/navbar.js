@@ -32,33 +32,33 @@ export default function Navbar() {
 
   return (
     <ul className='z-[100] text-xl'>
-      <li className='inline-block hover:text-gray'>
-        <a href="/" className='p-4'>
+      <li className='inline-block p-4'>
+        <a href="/" className='hover:text-gray-300'>
           Home
         </a>
       </li>
-      <li className='inline-block p-4 hover:text-gray'>
-        <a href="/galleria" className='p-4 hover:text-gray' onClick={setSelected}>
+      <li className='inline-block p-4'>
+        <a href="/galleria" className='hover:text-gray-300' onClick={setSelected}>
           Galleria
         </a>
       </li>
-      <li className='inline-block p-4 hover:text-gray'>
-        <a href="/calendario" className='p-4 hover:text-gray' onClick={setSelected}>
+      <li className='inline-block p-4'>
+        <a href="/calendario" className='hover:text-gray-300' onClick={setSelected}>
           Calendario
         </a>
       </li>
-      <li className='inline-block p-4 hover:text-gray'>
-        <a href="/tesseramento">
+      <li className='inline-block p-4'>
+        <a href="/tesseramento" className="hover:text-gray-300">
           Tesseramento
         </a>
       </li>
-      <li className='inline-block p-4 hover:text-gray'>
-        <a href="/organigramma">
+      <li className='inline-block p-4'>
+        <a href="/organigramma" className="hover:text-gray-300">
           Organigramma
         </a>
       </li>
-      <li className='inline-block p-4 hover:text-gray'>
-        <a href="/contatti">
+      <li className='inline-block p-4'>
+        <a href="/contatti" className="hover:text-gray-300">
           Contatti
         </a>
       </li>
