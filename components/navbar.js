@@ -20,10 +20,12 @@ export default function Navbar() {
       if (window.scrollY > 50) {
         topHeader.style.backgroundColor = "white";
         topHeader.style.color = "black";
+        topHeader.style.boxShadow = "0px 0px 10px 0px rgba(0,0,0,0.75)";
       }
       else {
         topHeader.style.backgroundColor = "inherit";
         topHeader.style.color = "white";
+        topHeader.style.boxShadow = "inherit";
       }
     })
   }

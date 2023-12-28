@@ -4,14 +4,13 @@ export default function Home() {
   return (
     <>
       <div id="simple-paragraph" className="w-full bg-white">
-        {/*  */}
         <div className="relative block h-1 w-[81%] mt-3 mx-auto bg-red-500"></div>
         <div className="relative block p-50 text-center">
           <span className="pt-50">
             La Scuderia nasce da un gruppo di amici appassionati di auto d'epoca che da molti anni partecipano a raduni e passeggiate e più volte sono stati riconosciuti con simpatia.
           </span>
           <div className="relative">
-            <Image src="/logo.png" width='340' height='340' className="mx-auto"></Image>
+            <Image src="/logo.png" width='340' height='340' className="mx-auto" />
           </div>
         </div>
         <div className="relative block h-1 w-[81%] mb-3 mx-auto bg-red-500"></div>
@@ -40,7 +39,7 @@ export default function Home() {
             </a>
           </div>
           <div className="col-start-3">
-            <Image src="/old_logo.jpeg" width='600' height='597' className="mx-auto"></Image>
+            <Image src="/old_logo.jpeg" width='600' height='597' className="mx-auto" />
           </div>
         </div>
 
@@ -67,7 +66,7 @@ export default function Home() {
             </div>
             <div className="grid grid-cols-3 row-span-1">
               <div className="col-span-1">
-                <Image src="/sponsors/glassdrive.jpg" width={140} height={100} alt="descrizione" className="mx-auto"/>
+                <Image src="/sponsors/glassdrive.jpg" width={140} height={100} alt="descrizione" className="mx-auto" />
               </div>
               <div className="col-span-2">
                 <div className="font-bold">
@@ -86,7 +85,7 @@ export default function Home() {
             </div>
             <div className="grid grid-cols-3 row-span-1 mt-4">
               <div className="col-span-1">
-                <Image src="/sponsors/ancorauto.png" width={140} height={100} alt="descrizione" className="mx-auto"/>
+                <Image src="/sponsors/ancorauto.png" width={140} height={100} alt="descrizione" className="mx-auto" />
               </div>
               <div className="col-span-2">
                 <div className="font-bold">

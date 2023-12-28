@@ -1,9 +1,8 @@
 'use client'
 
-import { Parallax, Background } from 'react-parallax';
+import { Parallax } from 'react-parallax';
 import { usePathname } from 'next/navigation';
 import { useState, useEffect } from 'react';
-import Image from 'next/image';
 
 export default function HeaderImage() {
 
