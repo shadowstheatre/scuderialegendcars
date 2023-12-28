@@ -32,14 +32,19 @@ export default function Navbar() {
 
   return (
     <ul className='z-[100] text-xl'>
-      <li className='inline-block'>
-        <a href="/" className='p-4 hover:text-gray'>
+      <li className='inline-block hover:text-gray'>
+        <a href="/" className='p-4'>
           Home
         </a>
       </li>
       <li className='inline-block p-4 hover:text-gray'>
         <a href="/galleria" className='p-4 hover:text-gray' onClick={setSelected}>
           Galleria
+        </a>
+      </li>
+      <li className='inline-block p-4 hover:text-gray'>
+        <a href="/calendario" className='p-4 hover:text-gray' onClick={setSelected}>
+          Calendario
         </a>
       </li>
       <li className='inline-block p-4 hover:text-gray'>

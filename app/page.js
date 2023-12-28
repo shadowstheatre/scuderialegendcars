@@ -67,7 +67,7 @@ export default function Home() {
             </div>
             <div className="grid grid-cols-3 row-span-1">
               <div className="col-span-1">
-                <Image src="/sponsors/glassdrive.jpg" width={140} height={100} alt="descrizione" className="" />
+                <Image src="/sponsors/glassdrive.jpg" width={140} height={100} alt="descrizione" className="mx-auto"/>
               </div>
               <div className="col-span-2">
                 <div className="font-bold">
@@ -84,9 +84,9 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="grid grid-cols-3 row-span-1 mt-10">
+            <div className="grid grid-cols-3 row-span-1 mt-4">
               <div className="col-span-1">
-                <Image src="/sponsors/ancorauto.png" width={140} height={100} alt="descrizione" className="" />
+                <Image src="/sponsors/ancorauto.png" width={140} height={100} alt="descrizione" className="mx-auto"/>
               </div>
               <div className="col-span-2">
                 <div className="font-bold">
