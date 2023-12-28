@@ -28,3 +28,13 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+#top-header {
+  color: white;
+
+  transition: all 75ms linear;
+  -webkit-transition: all 75ms linear;
+  -ms-transition: all 75ms linear;
+  -o-transition: all 75ms linear;
+  -ms-transition: all 75ms linear;
+}
