@@ -38,25 +38,31 @@ export default function Navbar() {
   // }
 
   return (
-    <ul className='text-xl'>
+    <ul className='z-[100] text-xl'>
       <li className='inline-block'>
         <a href="/" className='p-4 hover:text-gray'>
           Home
         </a>
       </li>
-      <a href="/Galleria" className='p-4 hover:text-gray' onClick={setSelected}>
-        <li className='inline-block p-4 hover:text-gray'>
+      <li className='inline-block p-4 hover:text-gray'>
+        <a href="/Galleria" className='p-4 hover:text-gray' onClick={setSelected}>
           Galleria
-        </li>
-      </a>
-      <li className='inline-block p-4 hover:text-gray'>
-        Tesseramento
+        </a>
       </li>
       <li className='inline-block p-4 hover:text-gray'>
-        Organigramma
+        <a href="/Tesseramento">
+          Tesseramento
+        </a>
       </li>
       <li className='inline-block p-4 hover:text-gray'>
-        Contatti
+        <a href="/Organigramma">
+          Organigramma
+        </a>
+      </li>
+      <li className='inline-block p-4 hover:text-gray'>
+        <a href="/Contatti">
+          Contatti
+        </a>
       </li>
       {/* <ul className="space-x-4">
      {pagine.map((pagina) => (

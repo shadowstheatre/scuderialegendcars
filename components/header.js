@@ -6,7 +6,6 @@ export default function Header() {
  return (
   <>
    <div className="relative min-h-[500px]">
-    <div className="after:content-[''] after:absolute after:top-0 after:left-0 after:block after:bg-black after:opacity-25 after:h-full after:w-full after:-z-10"></div>
     <div id="top-header" className="fixed flex justify-between w-full z-40">
      <a className='inline-block' href="/">
       <Image className="ml-2 mb-1 inline-block" src="/logo.png" alt="Logo" width={40} height={40} />
@@ -16,7 +15,7 @@ export default function Header() {
      </a>
      <Navbar />
     </div>
-    <HeaderImage></HeaderImage>
+    <HeaderImage />
     {/* <p className="text-center pt-[120px] z-20">
      <span className='pb-4 border-b-[12px] border-red-500 text-white lg:text-[60pt] md:text-[25px] uppercase'>
       Scuderia Legend Cars

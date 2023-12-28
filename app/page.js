@@ -58,27 +58,41 @@ export default function Home() {
         </div>
       </div>
 
-      <div id="sponsors" className="w-full bg-white">
+      <div id="sponsors" className="w-full relative bg-white">
         <div className="relative block h-1 w-[81%] mt-3 mx-auto bg-red-500"></div>
-        <div className="grid grid-rows-3">
-          <div className="uppercase">
-            I NOSTRI SPONSOR
-          </div>
-          <div className="grid-col-2">
-            <div className="">
-              <Image></Image>
-
+        <div className="w-[81%] mx-auto">
+          <div className="grid grid-rows-3">
+            <div className="row-span-1 uppercase text-center h-2">
+              I NOSTRI SPONSOR
             </div>
-            <div className=""></div>
-          </div>
-          <div className="grid-col-2">
-            <div className="">
-              <Image></Image>
-
+            <div className="grid grid-cols-3 row-span-1">
+              <div className="col-span-1">
+                <Image src="/sponsors/glassdrive.jpg" width={140} height={100} alt="descrizione" className="" />
+              </div>
+              <div className="col-span-2">
+                <div className="font-bold">
+                  Glassdrive Trento
+                </div>
+                <div>
+                  164/m, v. Alto Adige (Lamar di Gardolo) - 38121 Trento (TN)
+                </div>
+                <a className="block" href="tel:0461994864">
+                  Tel. 0461-994864
+                </a>
+                <a href="mailto:trento@glassdrive.it">
+                  trento@glassdrive.it
+                </a>
+              </div>
             </div>
-            <div className=""></div>
+            <div className="grid grid-cols-3 row-span-1 mt-8">
+              <div className="col-span-1">
+                <Image src="/sponsors/ancorauto.png" width={140} height={100} alt="descrizione" className="" />
+              </div>
+              <div className="col-span-2">
+                {/* Contenuto della terza riga, colonna 2 */}
+              </div>
+            </div>
           </div>
-
         </div>
         <div className="relative block h-1 w-[81%] mb-3 mx-auto bg-red-500"></div>
       </div>
