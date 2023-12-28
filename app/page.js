@@ -62,7 +62,7 @@ export default function Home() {
         <div className="relative block h-1 w-[81%] mt-3 mx-auto bg-red-500"></div>
         <div className="w-[81%] mx-auto">
           <div className="grid grid-rows-3">
-            <div className="row-span-1 uppercase text-center h-2">
+            <div className="row-span-1 uppercase text-center text-4xl">
               I NOSTRI SPONSOR
             </div>
             <div className="grid grid-cols-3 row-span-1">
@@ -77,25 +77,36 @@ export default function Home() {
                   164/m, v. Alto Adige (Lamar di Gardolo) - 38121 Trento (TN)
                 </div>
                 <a className="block" href="tel:0461994864">
-                  Tel. 0461-994864
+                  Tel. 0461994864
                 </a>
                 <a href="mailto:trento@glassdrive.it">
-                  trento@glassdrive.it
+                  Mail: trento@glassdrive.it
                 </a>
               </div>
             </div>
-            <div className="grid grid-cols-3 row-span-1 mt-8">
+            <div className="grid grid-cols-3 row-span-1 mt-10">
               <div className="col-span-1">
                 <Image src="/sponsors/ancorauto.png" width={140} height={100} alt="descrizione" className="" />
               </div>
               <div className="col-span-2">
-                {/* Contenuto della terza riga, colonna 2 */}
+                <div className="font-bold">
+                  Team Ancorauto
+                </div>
+                <div>
+                  di Ancora Vincenzo
+                </div>
+                <div>
+                  148, Str. Statale dei Giovi - 20032 Ospitaletto di Cormano
+                </div>
+                <a className="block" href="tel:0266300779">
+                  Tel. 0266300779
+                </a>
               </div>
             </div>
           </div>
         </div>
-        <div className="relative block h-1 w-[81%] mb-3 mx-auto bg-red-500"></div>
       </div>
+      <div className="relative block h-1 w-[81%] mt-4 mb-3 mx-auto bg-red-500"></div>
     </>
   )
 }

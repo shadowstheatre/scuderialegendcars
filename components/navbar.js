@@ -45,22 +45,22 @@ export default function Navbar() {
         </a>
       </li>
       <li className='inline-block p-4 hover:text-gray'>
-        <a href="/Galleria" className='p-4 hover:text-gray' onClick={setSelected}>
+        <a href="/galleria" className='p-4 hover:text-gray' onClick={setSelected}>
           Galleria
         </a>
       </li>
       <li className='inline-block p-4 hover:text-gray'>
-        <a href="/Tesseramento">
+        <a href="/tesseramento">
           Tesseramento
         </a>
       </li>
       <li className='inline-block p-4 hover:text-gray'>
-        <a href="/Organigramma">
+        <a href="/organigramma">
           Organigramma
         </a>
       </li>
       <li className='inline-block p-4 hover:text-gray'>
-        <a href="/Contatti">
+        <a href="/contatti">
           Contatti
         </a>
       </li>
