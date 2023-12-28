@@ -16,14 +16,7 @@ export default function Header() {
      <Navbar />
     </div>
     <HeaderImage />
-    {/* <p className="text-center pt-[120px] z-20">
-     <span className='pb-4 border-b-[12px] border-red-500 text-white lg:text-[60pt] md:text-[25px] uppercase'>
-      Scuderia Legend Cars
-     </span>
-    </p> */}
    </div>
   </>
  )
-
-
 }

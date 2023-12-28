@@ -4,20 +4,18 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
 export default function Navbar() {
+
   const [selected, setSelected] = useState();
   const [path, setPath] = useState();
   const pathNow = usePathname();
 
   useEffect(() => {
     setPath(pathNow);
-    console.log(path + 'useEffect');
-  }, [selected])
 
-  console.log(usePathname());
+  }, [selected])
 
   function blendTopHeader() {
     const topHeader = document.getElementById("top-header");
-    console.log(topHeader);
     window.addEventListener("scroll", function () {
       if (window.scrollY > 50) {
         topHeader.style.backgroundColor = "white";
@@ -31,11 +29,6 @@ export default function Navbar() {
   }
 
   blendTopHeader();
-
-  // function changeSelected() {
-  //  const path = usePathname();
-  //  console.log(path);
-  // }
 
   return (
     <ul className='z-[100] text-xl'>
@@ -64,11 +57,6 @@ export default function Navbar() {
           Contatti
         </a>
       </li>
-      {/* <ul className="space-x-4">
-     {pagine.map((pagina) => (
-      <li className="inline-block" key={pagina}><a href={`/${pagina}`}>{pagina}</a></li>
-     ))}
-    </ul> */}
     </ul>
   )
 }
