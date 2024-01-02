@@ -42,7 +42,6 @@ export default function Home() {
             <Image src="/old_logo.jpeg" width='600' height='597' className="mx-auto" />
           </div>
         </div>
-
         <div className="relative block h-1 w-[81%] mb-3 mx-auto bg-red-500"></div>
       </div>
 

@@ -8,13 +8,18 @@ export default function HeaderImage() {
 
  const [name, setName] = useState();
  const pathNow = usePathname();
+ console.log(pathNow);
 
  useEffect(() => {
-  if (pathNow == "/") {
-   setName("Scuderia Legend Cars");
-  }
-  else {
-   setName(pathNow.substring(1));
+  switch (pathNow) {
+   case "/": setName("Scuderia Legend Cars");
+    break;
+   case "/galleria/foto": setName("Foto");
+    break;
+   case "/galleria/video": setName("Video");
+    break;
+   default: setName(pathNow.substring(1));
+    break;
   }
  }, [])
 
