@@ -51,7 +51,7 @@ export default function Navbar() {
           <div
             onMouseEnter={() => setShowSubMenu(true)}
             onMouseLeave={() => setShowSubMenu(false)}
-            id="hidden-menu" className="absolute bg-white pr-12 py-2 text-black">
+            id="hidden-menu" className="absolute bg-white pr-12 py-2 text-black shadow">
             <a href="/galleria/foto" className="block px-4 pt-2 pb-2 hover:text-gray-300">
               Foto
             </a>
