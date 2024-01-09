@@ -11,30 +11,39 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-} */
-
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
 #top-header {
   color: white;
-
   transition: all 75ms linear;
   -webkit-transition: all 75ms linear;
   -ms-transition: all 75ms linear;
   -o-transition: all 75ms linear;
   -ms-transition: all 75ms linear;
+}
+
+#galleria::after {
+  content: '\f078';
+}
+
+.active {
+  background: rgba(31, 31, 31, 1);
+  color: white;
+  padding: 2px 5px;
+}
+
+.active:hover {
+  opacity: 0.50;
+}
+
+.open {
+  opacity: 1;
+  padding: 40px 60px;
+  text-align: right;
+  transition: all 0.2s;
 }
