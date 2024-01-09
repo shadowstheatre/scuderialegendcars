@@ -47,7 +47,7 @@ export default function Home() {
 
       <div id="team-paragraph" className="w-full relative bg-[url('/team-photo.jpeg')] bg-center text-center">
         <div className="after:content-[''] after:absolute after:top-0 after:left-0 after:block after:bg-black after:opacity-25 after:h-full after:w-full"></div>
-        <div className="relative h-full p-24 text-white uppercase text-6xl z-20">
+        <div className="relative h-full p-24 text-white uppercase md:text-6xl z-20">
           <a className="relative h-full hover:border-b-4 hover:border-b-white" href="https://drive.google.com/open?id=10wVgXZC9NSGizpHUiCpmlUPqbETntS1R7WNx0qSS0EU">
             <span>
               Leggi lo statuto dell'associazione!

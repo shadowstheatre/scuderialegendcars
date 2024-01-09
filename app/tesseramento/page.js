@@ -2,7 +2,7 @@ export default function Tesseramento() {
 
  return (
   <>
-   <div className="center text-center text-xl leading-loose p-24 bg-white">
+   <div className="center text-center text-xl leading-loose p-6 md:p-24 bg-white">
     <div className="relative">
      <p>
       Per qualsiasi informazione sulle iscrizioni potete rivolgervi alla <b>segreteria della scuderia.</b>
